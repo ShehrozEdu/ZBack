@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+      !important
+    />
+
+    <link rel="stylesheet" href="plugins/bootstrap5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="homepage.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Homepage with Bootstrap</title>
+  </head>
+  <body>
+    <div class="container-fluid m-0 p-0 ">
+      <section>
+      <div class="bg__image">
+        <div
+          class="d-lg-flex flex-row justify-content-end pe-lg-5 pe-sm-3 d-none"
+        >
+          <button class="btn mt-3 me-4 text-white">Login</button>
+          <button class="btn border-white mt-3 text-white me-1">
+            Create an Account
+          </button>
+        </div>
+                                            <!-- =====LOGO======= -->
+        <div class="d-flex justify-content-center">
+          <h1
+            class="mt-4 mb-lg-0 mb-2 logo d-flex p-0 justify-content-center align-items-center fw-bold bg-white rounded-circle"
+          >
+            e!
+          </h1>
+        </div>
+
+                                          <!-- ======TITLE====== -->
+        <p
+          class="text-sm-center d-flex justify-content-center header__text text-white fw-bold text-lg-center h1 text-center mb-lg-4 mb-1 mt-lg-3 p-1"
+        >
+          Find the best restaurants, cafés, and bars
+        </p>
+
+                                          <!-- ======SEARCh====== -->
+
+        <div class="row d-flex justify-content-center m-0 position-relative ms-5">
+          <div class="col-lg-8 col-10">
+            <div class="row d-flex mb-lg-5">
+              <div class="col-lg-4 col-12 left-search__main ms-lg-5">
+                <input
+                  list="locations"
+                  type="text"
+                  class="form-control  p-3"
+                  placeholder="Please type a location"
+                />
+                            <!-- ======Suggestions(Location)====== -->
+                <div
+                  class="left-suggestion__section d-flex position-absolute bg-white flex-column border mt-2"
+                >
+                <div class="mt-2">
+                  <div class="d-flex suggestion__box">
+                  
+                    <div class="">
+              
+                      <p class=" ms-4 left-suggestion__section-text  ">Sarjapur Road, Bengaluru</p>
+                  </div>
+                </div>
+
+
+                  <div class="d-flex  suggestion__box">
+
+                    <div class="">
+                     
+                      <p class="ms-4 left-suggestion__section-text">HSR Layout,Bengaluru</p>
+                  </div>
+                </div>
+                  <div class="d-flex suggestion__box">
+ 
+                    <div class="">
+                  
+                      <p class="ms-4 left-suggestion__section-text">Bengaluru Jay Nagar</p>
+                  </div>
+                </div>
+                  <div class="d-flex suggestion__box">
+  
+                    <div class="">
+                  
+                      <p class="ms-4 left-suggestion__section-text">Kormangala,Bengaluru</p>
+                  </div>
+                </div>
+                  <div class="d-flex suggestion__box">
+  
+                    <div class="">
+                  
+                      <p class="ms-4 left-suggestion__section-text">Jay Nagar, Bengaluru</p>
+                  </div>
+                </div>
+              </div>
+              </div>
+              </div>
+              <div class="col-lg-7 mt-2 mt-lg-0 col-12 right-search__main ">
+                <i
+                  class="bx bx-search-alt-2 search__logo ms-3 position-absolute text-muted fs-4"
+                  aria-hidden="true"
+                ></i>
+                <input
+                  type="text"
+                  class="form-control p-3 ps-5 location__input"
+                  placeholder="Search for Restaurants"
+                />
+
+
+                                        <!-- ======Suggestions(Restaurants)====== -->
+                <div
+                  class="right-suggestion__section d-flex position-absolute bg-white flex-column border border-1 mt-2"
+                >
+                  <div class="d-flex  border border-2 bg-white">
+                  
+                    <img
+                      src="./imgZomatoClone/item1modified.png"
+                      class="suggestion__img m-2"
+                      alt=""
+                    />
+                    <div class="">
+                      <p class="d-flex flex-column m-1 mt-2 fw-bold right-suggestion__section-heading">
+                        The Big Chill Cakery
+                      </p>
+                      <p class="text-start right-suggestion__section-text  ">Sarjapur Bengaluru</p>
+                  </div>
+                </div>
+                  <div class="d-flex  border border-2 bg-white">
+                  
+                    <img
+                      src="./imgZomatoClone/item1modified.png"
+                      class="suggestion__img m-2"
+                      alt=""
+                    />
+                    <div class="">
+                      <p class="d-flex flex-column m-1 mt-2 fw-bold text-start right-suggestion__section-heading ">
+                        Punjabi Rasoi
+                      </p>
+                      <p class="right-suggestion__section-text  ">Sarjapur Bengaluru</p>
+                  </div>
+                </div>
+                  <div class="d-flex  border border-2 bg-white">
+                  
+                    <img
+                      src="./imgZomatoClone/item1modified.png"
+                      class="suggestion__img m-2"
+                      alt=""
+                    />
+                    <div class="">
+                      <p class="d-flex flex-column m-1 mt-2 fw-bold text-start right-suggestion__section-heading ">
+                        Punjabi Rasoi
+                      </p>
+                      <p class="right-suggestion__section-text  ">Sarjapur Bengaluru</p>
+                  </div>
+                </div>
+                
+              </div>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+                                         <!-- ======Quick Search====== -->
+<section class="position-relative">
+      <div class="mt-5">
+        <p class="h2 fw-bold ms-5 search__section ">Quick Searches</p>
+        <span class="search__section-text ms-5 "
+          >Discover restaurants by type of meal</span
+        >
+      </div>
+
+      <!-- ======MEAL SECTION====== -->
+      <div class="d-flex mt-5 ms-5 flex-lg-row flex-column">
+        <div class="d-flex box__section me-3 flex-lg-row items mb-lg-0 mb-3">
+          <img src="/imgZomatoClone/item1modified.png" alt="" />
+          <div class="d-flex flex-column">
+            <span
+              class="fw-bold box__heading d-flex align-items-center ms-4 mt-3"
+              >Breakfast</span
+            >
+            <p class="box__text ms-4">
+              Start your day with exclusive breakfast options
+            </p>
+          </div>
+        </div>
+        <div class="d-flex box__section me-3 flex-lg-row items mb-lg-0 mb-3">
+          <img src="/imgZomatoClone/lunchmodified.png" alt="" />
+          <div class="d-flex flex-column">
+            <span
+              class="fw-bold box__heading d-flex align-items-center ms-4 mt-3"
+              >Lunch</span
+            >
+            <p class="box__text ms-4">
+              Start your day with exclusive breakfast options
+            </p>
+      
+          </div>
+        </div>
+        <div class="d-flex box__section me-3 mb-lg-0 mb-3">
+          <img src="/imgZomatoClone/snacksmodified.png" alt="" />
+          <div class="d-flex flex-column">
+            <span
+              class="fw-bold box__heading d-flex align-items-center ms-4 mt-3"
+              >Snacks</span
+            >
+            <p class="box__text ms-4">
+              Start your day with exclusive breakfast options
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="d-flex mt-lg-5 mt-md-0 mt-sm-0 ms-5 flex-lg-row flex-column mb-2"
+      >
+        <div class="d-flex box__section me-3 mb-lg-0 mb-3">
+          <img src="/imgZomatoClone/dinnermodified.png" alt="" />
+          <div class="d-flex flex-column">
+            <span
+              class="fw-bold box__heading d-flex align-items-center ms-4 mt-3"
+              >Dinner</span
+            >
+            <p class="box__text ms-4">
+              Start your day with exclusive breakfast options
+            </p>
+          </div>
+        </div>
+        <div class="d-flex box__section me-3 mb-lg-0 mb-3">
+          <img src="/imgZomatoClone/drinksmodified.png" alt="" />
+          <div class="d-flex flex-column">
+            <span
+              class="fw-bold box__heading d-flex align-items-center ms-4 mt-3"
+              >Drinks</span
+            >
+            <p class="box__text ms-4">
+              Start your day with exclusive breakfast options
+            </p>
+          </div>
+        </div>
+        <div class="d-flex box__section me-3 mb-lg-0 mb-3">
+          <img src="/imgZomatoClone/nightlifemodified.png" alt="" />
+          <div class="d-flex flex-column">
+            <span
+              class="fw-bold box__heading d-flex align-items-center ms-4 mt-3"
+              >Night Life</span
+            >
+            <p class="box__text ms-4">
+              Start your day with exclusive breakfast options
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+  </body>
+</html>
